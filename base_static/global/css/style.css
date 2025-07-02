@@ -128,7 +128,7 @@ svg {
 }
 
 .table-row {
-  text-align: left;
+  text-align: center;
   text-overflow: ellipsis;
   transition: background-color var(--transition-fast) ease-in-out;
 }
