@@ -1,8 +1,10 @@
 from django import forms
 from contact.models import Contact
 from django.core.exceptions import ValidationError
+from django.contrib.auth.forms import UserCreationForm
 
 class ContactForm(forms.ModelForm):
+
     class Meta:
         model = Contact
         fields = (
@@ -51,3 +53,7 @@ class ContactForm(forms.ModelForm):
                 code='invalid'
             )
         return last_name
+    
+
+class RegisterForm(UserCreationForm):
+    ...
