@@ -96,3 +96,4 @@ def delete(request, contact_id):
         }
 
     )
+
