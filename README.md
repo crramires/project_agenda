@@ -27,8 +27,10 @@ Projeto Agenda é uma aplicação web para gerenciamento de contatos pessoais. Q
 
 ## Requisitos
 
-- Python (versão conforme especificada no `requirements.txt`)
-- Dependências listadas no arquivo `requirements.txt`
+- Python (versão conforme especificada no [requirements.txt](https://github.com/crramires/project_agenda/blob/main/requirements.txt))
+- Dependências listadas no arquivo [requirements.txt](https://github.com/crramires/project_agenda/blob/main/requirements.txt)
+
+
 
 ## Como rodar localmente
 
